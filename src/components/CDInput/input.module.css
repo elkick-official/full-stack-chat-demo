@@ -1,0 +1,20 @@
+.inputControl {
+  background: rgba(84, 54, 57, 0.48);
+  border: none;
+  border-radius: 5px;
+  padding-left: var(--size-30);
+  caret-color: var(--white-color);
+  color: var(--white-color);
+}
+.inputControl::placeholder {
+  color: var(--white-color);
+  opacity: 0.6;
+  line-height: 15px;
+}
+.iconParent {
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  padding: 5px;
+  transition: 0.3s;
+}
