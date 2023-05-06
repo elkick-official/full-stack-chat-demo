@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   max-height: calc(calc(100vh - 9.6rem) - 7.1rem);
   overflow-y: auto;
+  position: relative;
+  z-index: -1;
 }
 
 .messageLeft {

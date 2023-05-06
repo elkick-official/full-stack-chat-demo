@@ -1,6 +1,7 @@
-import './App.css'
 import CDChatBody from './components/CDChatBody/CDChatBody'
 import CDSideBar from './components/CDSideBar/CDSideBar'
+
+import './App.css'
 
 function App() {
   return (

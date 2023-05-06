@@ -113,43 +113,20 @@ input:focus {
 .w-100 {
   width: 100%;
 }
-.m-auto {
-  margin: auto;
-}
-.mx-auto {
-  margin-right: auto;
-  margin-left: auto;
-}
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.ms-auto {
-  margin-left: auto;
-}
-.me-auto {
-  margin-right: auto;
-}
-.mt-auto {
-  margin-top: auto;
-}
-.mb-auto {
-  margin-bottom: auto;
-}
 
 .mx-1 {
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
 }
 
 .mx-2 {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 12px !important;
+  margin-right: 12px !important;
 }
 
 .mx-3 {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
 }
 
 .mx-4 {
@@ -355,6 +332,9 @@ input:focus {
 
 .p-5 {
   padding: 24px;
+}
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .box-shadow {
