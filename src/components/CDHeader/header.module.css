@@ -69,10 +69,11 @@
   transform: translateX(120%);
 }
 .drawerRight.drawerActive {
-  width: 100%;
   transform: translateX(0%);
 }
-.drawerRight .drawerRightHeader {
+
+.drawerRight .drawerRightHeader,
+.drawerMedia .drawerMediaHeader {
   height: 9.6rem;
   background-color: rgb(24, 21, 21, 0.8);
   font-size: var(--font-16);
@@ -99,4 +100,63 @@
 
 .aboutInfo span {
   color: #8696a0;
+}
+
+.drawerMedia {
+  height: 100vh;
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--black-color);
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+  max-height: calc(100vh - 4rem);
+  backdrop-filter: blur(5px);
+  overflow: auto;
+  transition: all 0.5s ease 0s;
+  transform: translateX(120%);
+}
+
+.drawerMedia.drawerMediaActive {
+  transform: translateX(0%);
+}
+.mediaGroup {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.mediaGroup .mediaItem {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.mediaGroup .mediaItem img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  opacity: 1;
+}
+.mediaGroup .mediaItem input {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+.mediaGroup .mediaItem input:checked,
+.mediaGroup .mediaItem:hover input {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mediaGroup .mediaItem input:checked .mediaItem img,
+.mediaGroup .mediaItem:hover img {
+  opacity: 0.7;
 }

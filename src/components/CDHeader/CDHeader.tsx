@@ -1,14 +1,27 @@
 import React, { FunctionComponent, useState } from 'react'
-import { Video, CallAdd, MoreCircle, CloseCircle, Trash } from 'iconsax-react'
-import { Dropdown } from 'react-bootstrap'
+import {
+  Video,
+  CallAdd,
+  MoreCircle,
+  CloseCircle,
+  Trash,
+  ArrowRight2,
+  ArrowLeft,
+  ArrowForward,
+} from 'iconsax-react'
+import { Dropdown, Tabs, Tab } from 'react-bootstrap'
 import CDUserProfile from '../CDUserProfile/CDUserProfile'
 import user2 from '../../assets/images/users/user-2.png'
 import headerStyle from './header.module.css'
 
 const CDHeader: FunctionComponent = () => {
   const [isActive, setIsActive] = useState<any>(false)
+  const [isMediaOpen, setIsMediaOpen] = useState<any>(false)
+
   const handleOpenDrawer = () => setIsActive(true)
   const handleCloseDrawer = () => setIsActive(false)
+  const handleOpenMedia = () => setIsMediaOpen(true)
+  const handleCloseMedia = () => setIsMediaOpen(false)
   return (
     <div
       className={`${headerStyle.headerWrapper} p-3 d-flex align-items-center justify-content-between w-100`}
@@ -104,9 +117,15 @@ const CDHeader: FunctionComponent = () => {
             </div>
           </div>
           <div
-            className={`${headerStyle.innerDrawerItem} d-flex align-items-center p-3 mb-2`}
+            className={`${headerStyle.innerDrawerItem} d-flex align-items-center p-3 mb-2 cursor-pointer`}
+            onClick={handleOpenMedia}
           >
-            <div>Media, link and Docs</div>
+            <div className="d-flex align-items-center">
+              Media, link and Docs
+              <span className="d-flex align-items-center justify-content-center ms-2">
+                <ArrowRight2 size="14" color="#ffffff" />
+              </span>
+            </div>
           </div>
           <div
             className={`${headerStyle.innerDrawerItem} d-flex align-items-center p-3 `}
@@ -122,6 +141,77 @@ const CDHeader: FunctionComponent = () => {
           </div>
         </div>
         {/* </div> */}
+      </div>
+      <div
+        className={`${headerStyle.drawerMedia} ${
+          isMediaOpen ? headerStyle.drawerMediaActive : ''
+        } vertical-scroll`}
+      >
+        <div
+          className={`${headerStyle.drawerMediaHeader} px-3 d-flex align-items-center box-shadow`}
+        >
+          {true ? (
+            <span
+              className={`d-flex align-items-center justify-content-center cursor-pointer p-2`}
+              onClick={handleCloseMedia}
+            >
+              <ArrowLeft size="24" color="#ffffff" />
+            </span>
+          ) : (
+            <>
+              <div
+                className={`d-flex align-items-center justify-content-center cursor-pointer p-2`}
+              >
+                <CloseCircle size="24" color="#ffffff" className="me-4" />1
+                Selected
+              </div>
+              <div
+                className={`d-flex align-items-center justify-content-center ms-auto`}
+              >
+                <span className="d-flex align-items-center p-2 cursor-pointer me-4">
+                  <Trash size="24" color="#ffffff" />
+                </span>
+                <span className="d-flex align-items-center p-2 cursor-pointer">
+                  <ArrowForward size="24" color="#ffffff" />
+                </span>
+              </div>
+            </>
+          )}
+        </div>
+        <div className={`${headerStyle.drawerMediaBody} `}>
+          <Tabs defaultActiveKey="media" id="media-tabs" className="mb-3" fill>
+            <Tab eventKey="media" title="Media">
+              <div className={`${headerStyle.mediaGroup} d-grid p-3`}>
+                <div className={`${headerStyle.mediaItem}`}>
+                  <input type="checkbox" />
+                  <img src={user2} alt="s" />
+                </div>
+                <div className={`${headerStyle.mediaItem}`}>
+                  <input type="checkbox" />
+                  <img src={user2} alt="s" />
+                </div>
+                <div className={`${headerStyle.mediaItem}`}>
+                  <input type="checkbox" />
+                  <img src={user2} alt="s" />
+                </div>
+                <div className={`${headerStyle.mediaItem}`}>
+                  <input type="checkbox" />
+                  <img src={user2} alt="s" />
+                </div>
+                <div className={`${headerStyle.mediaItem}`}>
+                  <input type="checkbox" />
+                  <img src={user2} alt="s" />
+                </div>
+              </div>
+            </Tab>
+            <Tab eventKey="docs" title="Docs">
+              Tab content for Docs
+            </Tab>
+            <Tab eventKey="links" title="Links">
+              Tab content for Links
+            </Tab>
+          </Tabs>
+        </div>
       </div>
     </div>
   )
