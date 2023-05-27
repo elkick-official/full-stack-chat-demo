@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-font: "Inter";
+
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --parrot-color: #21ff5ffc;
+  --green-color: #259945;
+  --olive-green-color: #1f1d1d;
+  --red-black-color: #312f2f;
+
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-18: 18px;
+  --font-18: 18px;
+  --font-20: 20px;
+  --font-22: 22px;
+  --font-24: 24px;
+
+  --size-14: 14px;
+  --size-16: 16px;
+  --size-18: 18px;
+  --size-20: 20px;
+  --size-22: 22px;
+  --size-24: 24px;
+  --size-26: 26px;
+  --size-30: 3rem;
+  --size-40: 4rem;
+
+  --chat-header-footer-accumulate-height: 16.6rem;
+  --chat-sidebar-header-height: 19.5rem;
+  --chat-footer-height: 70px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+body {
+  font-family: var(--primary-font);
+  font-size: 12px;
+  background-color: var(--black-color);
+}
+
+.vertical-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.vertical-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.9);
+}
+.vertical-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--parrot-color);
+  outline: 1px solid var(--parrot-color);
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: 0;
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+
+.d-block {
+  display: block;
+}
+
+.icon-sm {
+  width: 32px;
+  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.icon-md {
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.w-inherit {
+  width: inherit;
+}
+.w-max-content {
+  width: max-content;
+}
+.h-inherit {
+  height: inherit;
+}
+
+.h-full {
+  height: 100vh;
+}
+.custom-button {
+  font-size: 14px;
+  background-color: var(--olive-green-color);
+  border-color: var(--olive-green-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

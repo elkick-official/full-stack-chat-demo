@@ -1,0 +1,11 @@
+.imagePreviewWrapper {
+  min-height: 100px;
+  max-height: 400px;
+}
+
+.imagePreviewWrapper img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  object-fit: contain;
+  max-height: inherit;
+}

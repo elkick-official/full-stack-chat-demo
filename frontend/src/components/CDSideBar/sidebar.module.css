@@ -1,0 +1,34 @@
+.messageSidebarWrapper {
+  background-color: var(--olive-green-color);
+  max-width: 30%;
+  color: var(--white-color);
+  height: 100vh;
+}
+.chatSearchWrapper {
+  padding: var(--size-26) 0;
+}
+
+.messageCategoryWrapper .messageHeading {
+  font-size: var(--font-20);
+  font-weight: var(--fw-600);
+  line-height: var(--size-24);
+}
+.messageCategoryList {
+  background-color: var(--black-color);
+  grid-gap: 10px;
+  border-radius: 5px;
+}
+
+.messageCategoryList .categoryItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.messageCategoryList .categoryItem.categoryItemActive {
+  background: rgba(50, 47, 47, 0.88);
+  border-radius: 5px;
+}
+.userListWrapper {
+  height: calc(100vh - var(--chat-sidebar-header-height));
+  overflow-y: auto;
+}

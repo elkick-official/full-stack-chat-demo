@@ -1,0 +1,22 @@
+.pdfCustomWrapper {
+  width: 100%;
+  height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+}
+.pdfCustomWrapper canvas {
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.pdfNavLinks {
+  background-color: var(--white-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pdfNavLinks button {
+  background-color: transparent;
+  border: transparent;
+}
+.pdfNavLinks button:hover {
+  background-color: #f0efef;
+}

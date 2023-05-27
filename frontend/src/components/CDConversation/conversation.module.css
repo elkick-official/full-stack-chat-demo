@@ -1,0 +1,35 @@
+.userChatWrapper {
+  background-color: var(--red-black-color);
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.userChatWrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.userProfileRight .userName,
+.userProfileRight .lastMessage {
+  font-weight: var(--fw-600);
+  line-height: 15px;
+}
+.userProfileRight .userName {
+  font-size: var(--font-14);
+}
+.userProfileRight .lastMessage {
+  color: #767876;
+}
+.userProfileRight .lastMessage small {
+  color: var(--parrot-color);
+}
+.messageCount {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: var(--parrot-color);
+  color: var(--black-color);
+  font-weight: var(--fw-700);
+  text-align: center;
+}

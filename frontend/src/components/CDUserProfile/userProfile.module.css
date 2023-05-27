@@ -1,0 +1,19 @@
+.userProfileParent {
+  position: relative;
+}
+.userProfileParent.userProfileActive::after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background-color: var(--parrot-color);
+  border-radius: 50%;
+  top: -2px;
+  right: -2px;
+}
+.userProfileParent .userImage {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  object-fit: cover;
+}

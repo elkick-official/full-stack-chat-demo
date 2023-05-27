@@ -1,0 +1,2918 @@
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:09:33 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"other": {
+					"id": 3,
+					"roomId": 1,
+					"userId": 3,
+					"createdAt": "2023-05-01T12:15:49.000Z",
+					"updatedAt": "2023-05-01T12:15:49.000Z",
+					"user": {
+						"id": 3,
+						"userName": "vivek1",
+						"profileImage": "default.png",
+						"email": "vivek1@gmail.com",
+						"createdAt": "2023-05-01T06:22:51.000Z",
+						"updatedAt": "2023-05-01T06:22:51.000Z"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"other": {
+					"id": 9,
+					"roomId": 3,
+					"userId": 6,
+					"createdAt": "2023-05-01T12:18:22.000Z",
+					"upd
+...
+Response: 200 108.760 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:10:32 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z"
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z"
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt": "2023-05-01T12:37:26.000Z"
+			}
+		]
+	}
+}
+Response: 200 44.002 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:10:42 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"other": {
+					"userId": 3,
+					"user": {
+						"id": 3,
+						"userName": "vivek1",
+						"profileImage": "default.png",
+						"email": "vivek1@gmail.com",
+						"createdAt": "2023-05-01T06:22:51.000Z",
+						"updatedAt": "2023-05-01T06:22:51.000Z"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"other": {
+					"userId": 6,
+					"user": {
+						"id": 6,
+						"userName": "neha2",
+						"profileImage": "default.png",
+						"email": "neha2@gmail.com",
+						"createdAt": "2023-05-01T06:23:27.000Z",
+						"updatedAt": "2023-05-01T06:23
+...
+Response: 200 42.958 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:11:30 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z"
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z"
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt": "2023-05-01T12:37:26.000Z"
+			}
+		]
+	}
+}
+Response: 200 40.200 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:11:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z"
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z"
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt": "2023-05-01T12:37:26.000Z"
+			}
+		]
+	}
+}
+Response: 200 62.282 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:13:05 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z"
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z"
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt": "2023-05-01T12:37:26.000Z"
+			}
+		]
+	}
+}
+Response: 200 41.311 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:13:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z",
+				"receiver": null
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z",
+				"receiver": null
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt"
+...
+Response: 200 40.102 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:14:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z",
+				"receiver": {
+					"id": 5,
+					"roomId": 2,
+					"userId": 2,
+					"createdAt": "2023-05-01T12:17:08.000Z",
+					"updatedAt": "2023-05-01T12:17:08.000Z"
+				}
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z",
+				"receiver":
+...
+Response: 200 46.258 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:15:15 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "User is associated to Participant using an alias. You must use the 'as' keyword to specify the alias within your include statement."
+}
+Response: 500 40.839 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:15:24 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z",
+				"receiver": {
+					"id": 5,
+					"roomId": 2,
+					"userId": 2,
+					"createdAt": "2023-05-01T12:17:08.000Z",
+					"updatedAt": "2023-05-01T12:17:08.000Z",
+					"user": {
+						"id": 2,
+						"userName": "nikunj2",
+						"profileImage": "default.png",
+						"email": "nikunj2@gmail.com",
+						"password": "[FILTERED]",
+						"createdAt": "2023
+...
+Response: 200 69.786 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:17:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"Participants": [
+					{
+						"id": 2,
+						"roomId": 1,
+						"userId": 1,
+						"createdAt": "2023-05-01T12:15:39.000Z",
+						"updatedAt": "2023-05-01T12:15:39.000Z"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"Participants": [
+					{
+						"id": 8,
+						"roomId": 3,
+						"userId": 1,
+						"createdAt": "2023-05-01T12:18:13.000Z",
+						"updatedAt": "2023-05-01T12:18:13.000Z"
+					}
+				]
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt"
+...
+Response: 200 41.373 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:18:19 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"Participants": [
+					{
+						"id": 1,
+						"roomId": 1,
+						"userId": 5,
+						"createdAt": "2023-05-01T12:15:32.000Z",
+						"updatedAt": "2023-05-01T12:15:32.000Z"
+					},
+					{
+						"id": 2,
+						"roomId": 1,
+						"userId": 1,
+						"createdAt": "2023-05-01T12:15:39.000Z",
+						"updatedAt": "2023-05-01T12:15:39.000Z"
+					},
+					{
+						"id": 3,
+						"roomId": 1,
+						"userId": 3,
+						"createdAt": "2023-05-01T12:15:49.000Z",
+						"updatedAt": "2023-05-01T12:15:49.000Z"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"name": "chit-chat-2",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:53.000Z",
+				"updatedAt": "2023-05-01T12:14:33.000Z",
+			
+...
+Response: 200 41.368 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:19:04 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"other": {
+					"userId": 3,
+					"user": {
+						"id": 3,
+						"userName": "vivek1",
+						"profileImage": "default.png",
+						"email": "vivek1@gmail.com",
+						"createdAt": "2023-05-01T06:22:51.000Z",
+						"updatedAt": "2023-05-01T06:22:51.000Z"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"other": {
+					"userId": 6,
+					"user": {
+						"id": 6,
+						"userName": "neha2",
+						"profileImage": "default.png",
+						"email": "neha2@gmail.com",
+						"createdAt": "2023-05-01T06:23:27.000Z",
+						"updatedAt": "2023-05-01T06:23
+...
+Response: 200 47.176 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:19:54 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"other": [
+					{
+						"userId": 5,
+						"user": {
+							"id": 5,
+							"userName": "neha1",
+							"profileImage": "default.png",
+							"email": "neha1@gmail.com",
+							"createdAt": "2023-05-01T06:23:16.000Z",
+							"updatedAt": "2023-05-01T06:23:16.000Z"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"id": 3,
+							"userName": "vivek1",
+							"profileImage": "default.png",
+							"email": "vivek1@gmail.com",
+							"createdAt": "2023-05-01T06:22:51.000Z",
+							"updatedAt": "2023-05-01T06:22:51.000Z"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000
+...
+Response: 200 42.564 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:24:16 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "Not unique table/alias: 'participants'"
+}
+Response: 500 39.026 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:24:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "Not unique table/alias: 'participants'"
+}
+Response: 500 4.591 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:24:56 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "Not unique table/alias: 'participants'"
+}
+Response: 500 39.079 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:25:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"id": 5,
+							"userName": "neha1",
+							"profileImage": "default.png",
+							"email": "neha1@gmail.com",
+							"createdAt": "2023-05-01T06:23:16.000Z",
+							"updatedAt": "2023-05-01T06:23:16.000Z"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"id": 3,
+							"userName": "vivek1",
+							"profileImage": "default.png",
+							"email": "vivek1@gmail.com",
+							"createdAt": "2023-05-01T06:22:51.000Z",
+							"updatedAt": "2023-05-01T06:22:51.000Z"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T1
+...
+Response: 200 43.416 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:25:58 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 200 42.983 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:26:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z"
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z"
+			},
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z"
+			},
+			{
+				"id": 5,
+				"name": "nikunj-1-vivek-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:36:45.000Z",
+				"updatedAt": "2023-05-01T12:36:45.000Z"
+			},
+			{
+				"id": 6,
+				"name": "nikunj-1-vivek-2",
+				"type": "single",
+				"createdAt": "2023-05-01T12:37:26.000Z",
+				"updatedAt": "2023-05-01T12:37:26.000Z"
+			}
+		]
+	}
+}
+Response: 200 43.440 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:26:14 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 200 42.936 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:28:03 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 200 54.759 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:28:43 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 8.332 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:29:06 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 10.483 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:30:41 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 8.040 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:47:38 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 52.045 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:47:48 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 8.370 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:47:48 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 7.968 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:47:49 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 5.729 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:47:52 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"userName": "neha1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"userName": "vivek1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"userName": "neha2",
+							"profile
+...
+Response: 304 6.463 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:48:01 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit-chat-1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-01T12:14:28.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit-chat-3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-01T12:14:34.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"name": "Neha 2",
+							"profileImage": "def
+...
+Response: 200 51.059 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:48:33 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				]
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 6,
+						"user": {
+							"name": "Neha 2",
+							"profileImage": "def
+...
+Response: 200 12.420 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:56:06 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 2,
+					"roomId": 1,
+					"userId": 5,
+					"message": "Heyyy Message by neha 1",
+					"createdAt": "2023-05-02T16:49:52.000Z",
+					"updatedAt": "2023-05-02T16:49:52.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+			
+...
+Response: 200 45.774 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 16:59:55 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "Message is associated to Room using an alias. You must use the 'as' keyword to specify the alias within your include statement."
+}
+Response: 500 5.333 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:00:00 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"Message": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+			
+...
+Response: 200 44.764 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:00:20 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"message": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+			
+...
+Response: 200 49.257 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:01:58 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "Cannot read property 'literal' of undefined"
+}
+Response: 500 3.771 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:02:11 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 4,
+				"name": "neha-1-nikunj-1",
+				"type": "single",
+				"createdAt": "2023-05-01T12:19:14.000Z",
+				"updatedAt": "2023-05-01T12:19:14.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"message": {
+					"id": 8,
+					"roomId": 4,
+					"userId": 5,
+					"message": "4th message by neha 1",
+					"createdAt": "2023-05-02T16:53:36.000Z",
+					"updatedAt": "2023-05-02T16:53:36.000Z"
+				}
+			},
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					
+...
+Response: 200 48.427 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:02:46 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"message": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+			
+...
+Response: 200 46.725 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:04:46 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"Message": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+			
+...
+Response: 200 44.567 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:05:09 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+...
+Response: 200 44.636 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:06:08 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z"
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023-05-02T16:48:30.000Z",
+				"participantsList": [
+...
+Response: 200 14.624 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:35:42 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "User is not associated to Message!"
+}
+Response: 500 10.002 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:35:49 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "User is not associated to Message!"
+}
+Response: 500 3.215 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:36:18 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 500,
+	"ResponseCode": 0,
+	"success": false,
+	"message": "Something went wrong.",
+	"data": {},
+	"err": "User is associated to Message using an alias. You've included an alias (user), but it does not match the alias(es) defined in your association (User)."
+}
+Response: 500 5.749 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:36:29 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 200 46.593 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:36:34 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 200 9.041 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:37:56 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 19.723 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:38:56 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 12.023 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:38:57 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 6.739 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:39:34 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 200 9.457 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:41:34 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 7.982 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:41:46 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 10.988 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:42:06 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 200 9.356 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:42:11 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 9.141 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:53:26 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 49.084 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:53:26 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 9.576 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:53:38 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 10.610 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:54:58 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 57.371 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:55:43 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 11.130 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:55:46 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 7.426 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 17:57:29 GMT+0530, IP: ::1, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"userId": 5,
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"userId": 3,
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-02T16:58:06.000Z",
+					"updatedAt": "2023-05-02T16:58:06.000Z",
+					"user": {
+						"name": "Nikunj 1"
+					}
+				}
+			},
+			{
+				"id": 3,
+				"name": "chit chat 3",
+				"type": "group",
+				"createdAt": "2023-05-01T12:14:19.000Z",
+				"updatedAt": "2023
+...
+Response: 304 9.001 ms 
+
+Request: GET /api/v1/chat/room-list/1 at Tue May 02 2023 18:03:08 GMT+0530, IP: ::1, User Agent: PostmanRuntime/7.32.2
+Response Body:
+{
+	"status": 200,
+	"ResponseCode": 1,
+	"success": true,
+	"message": "Room list retrived.",
+	"data": {
+		"imageUrl": "http://192.168.1.176:1999/public/",
+		"roomList": [
+			{
+				"id": 1,
+				"name": "chit chat 1",
+				"type": "group",
+				"createdAt": "2023-05-01T12:13:25.000Z",
+				"updatedAt": "2023-05-02T16:48:20.000Z",
+				"participantsList": [
+					{
+						"id": 1,
+						"roomId": 1,
+						"userId": 5,
+						"createdAt": "2023-05-01T12:15:32.000Z",
+						"updatedAt": "2023-05-01T12:15:32.000Z",
+						"user": {
+							"name": "Neha 1",
+							"profileImage": "default.png"
+						}
+					},
+					{
+						"id": 3,
+						"roomId": 1,
+						"userId": 3,
+						"createdAt": "2023-05-01T12:15:49.000Z",
+						"updatedAt": "2023-05-01T12:15:49.000Z",
+						"user": {
+							"name": "Vivek 1",
+							"profileImage": "default.png"
+						}
+					}
+				],
+				"lastMessage": {
+					"id": 13,
+					"roomId": 1,
+					"userId": 1,
+					"message": "Heyy 3 message by Nikunj 1",
+					"createdAt": "2023-05-0
+...
+Response: 200 46.127 ms 

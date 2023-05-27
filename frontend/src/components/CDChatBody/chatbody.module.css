@@ -1,0 +1,18 @@
+.newConversation {
+  height: 100vh;
+  color: var(--white-color);
+  z-index: 0;
+}
+.newConversation::after {
+  content: "";
+  filter: blur(6px);
+  background-image: url("../../assets/images/chat-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}

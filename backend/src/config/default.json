@@ -1,0 +1,32 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "db": "chat-demo-dev",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "chat-demo-dev",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "configuration": {
+    "jwt": {
+      "secret": "R3^re$_r39a!@G",
+      "algorithm": "HS256",
+      "tokenLife": "365d",
+      "issuer": "!612A94@9p",
+      "audience": "",
+      "subject": ""
+    }
+  }
+}
