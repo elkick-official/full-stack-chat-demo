@@ -1,0 +1,15 @@
+.footerWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--olive-green-color);
+}
+.footerWrapper input[type='text'] {
+  padding-left: var(--size-40);
+}
+.sendMessage,
+.attachFile {
+  background-color: var(--parrot-color);
+  border-radius: 50%;
+  cursor: pointer;
+}

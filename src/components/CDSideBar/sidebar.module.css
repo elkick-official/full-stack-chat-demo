@@ -1,0 +1,85 @@
+.messageSidebarWrapper {
+  background-color: var(--olive-green-color);
+  max-width: 30%;
+  color: var(--white-color);
+  height: 100vh;
+}
+.chatSearchWrapper {
+  padding: var(--size-26) 0;
+}
+
+.messageCategoryWrapper .messageHeading {
+  font-size: var(--font-20);
+  font-weight: var(--fw-600);
+  line-height: var(--size-24);
+}
+.messageCategoryList {
+  background-color: var(--black-color);
+  grid-gap: 10px;
+  border-radius: 5px;
+}
+
+.messageCategoryList .categoryItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.messageCategoryList .categoryItem.categoryItemActive {
+  background: rgba(50, 47, 47, 0.88);
+  border-radius: 5px;
+}
+.userListWrapper {
+  max-height: 43rem;
+  overflow-y: auto;
+}
+.userChatWrapper {
+  background-color: var(--red-black-color);
+  border-radius: 5px;
+  margin-right: 8px;
+}
+.userChatWrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* .userProfileLeft {
+  max-width: 50px;
+  max-height: 50px;
+  position: relative;
+}
+.userProfileLeft.userProfileActive::after {
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background-color: var(--parrot-color);
+  border-radius: 50%;
+  top: -2px;
+  right: -2px;
+}
+.userProfileLeft .userImage {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+} */
+.userProfileRight .userName,
+.userProfileRight .lastMessage {
+  font-weight: var(--fw-600);
+  line-height: 15px;
+}
+.userProfileRight .userName {
+  font-size: var(--font-14);
+}
+.userProfileRight .lastMessage {
+  color: #767876;
+}
+.messageCount {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  font-size: 10px;
+  background-color: var(--parrot-color);
+  color: var(--black-color);
+  font-weight: var(--fw-700);
+  text-align: center;
+}

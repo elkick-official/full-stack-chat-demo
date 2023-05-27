@@ -1,0 +1,57 @@
+.messageContentWrapper {
+  background-image: url('../../assets/images/chat-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: calc(calc(100vh - 9.6rem) - 7.1rem);
+  overflow-y: auto;
+}
+
+.messageLeft {
+  justify-content: flex-start;
+}
+.messageRight {
+  justify-content: flex-end;
+}
+
+.messageWrapper {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  max-width: 400px;
+  position: relative;
+}
+.messageLeft .messageWrapper {
+  margin-left: 8px;
+}
+.messageLeft .messageWrapper::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 0;
+  border: 10px solid;
+  border-color: var(--white-color) transparent transparent transparent;
+}
+.messageRight .messageWrapper {
+  margin-right: 8px;
+}
+.messageRight .messageWrapper::before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  top: 0;
+  right: -10px;
+  border-color: var(--white-color) transparent transparent transparent;
+}
+.messageInfo {
+  font-weight: var(--fw-600);
+}
+.messageInfo .messageInfoName {
+  font-size: var(--font-14);
+}
+
+.messageInfo .messageInfoTime {
+  color: #767876;
+}
