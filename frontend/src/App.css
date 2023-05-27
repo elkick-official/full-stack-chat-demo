@@ -4,34 +4,34 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: "Inter";
-  src: url("./assets/fonts/Inter-Bold.woff2") format("woff2"),
-    url("./assets/fonts/Inter-Bold.woff") format("woff");
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.woff2') format('woff2'),
+    url('./assets/fonts/Inter-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("./assets/fonts/Inter-Medium.woff2") format("woff2"),
-    url("./assets/fonts/Inter-Medium.woff") format("woff");
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Medium.woff2') format('woff2'),
+    url('./assets/fonts/Inter-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inter";
-  src: url("./assets/fonts/Inter-Regular.woff2") format("woff2"),
-    url("./assets/fonts/Inter-Regular.woff") format("woff");
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Inter-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
-  --primary-font: "Inter";
+  --primary-font: 'Inter';
 
   --black-color: #000000;
   --white-color: #ffffff;
@@ -78,6 +78,9 @@ body {
   background-color: var(--black-color);
 }
 
+input:focus {
+  outline: 0;
+}
 .vertical-scroll::-webkit-scrollbar {
   width: 4px;
 }
@@ -89,12 +92,12 @@ body {
   outline: 1px solid var(--parrot-color);
   border-radius: 10px;
 }
-
-input:focus {
-  outline: 0;
-}
 .bg-green {
   background-color: var(--green-color);
+}
+
+.text-red-black-color {
+  color: var(--red-black-color);
 }
 
 .d-block {
@@ -114,7 +117,15 @@ input:focus {
   max-width: 50px;
   max-height: 50px;
 }
-
+.fw-500 {
+  font-weight: var(--fw-500);
+}
+.fw-600 {
+  font-weight: var(--fw-600);
+}
+.fw-700 {
+  font-weight: var(--fw-700);
+}
 .w-inherit {
   width: inherit;
 }
@@ -132,6 +143,14 @@ input:focus {
   font-size: 14px;
   background-color: var(--olive-green-color);
   border-color: var(--olive-green-color);
+}
+.custom-button:active,
+.custom-button:focus,
+.custom-button:focus-visible,
+.custom-button:focus-within,
+.custom-button:hover {
+  background-color: var(--olive-green-color) !important;
+  border-color: var(--olive-green-color) !important;
 }
 .cursor-pointer {
   cursor: pointer;

@@ -1,28 +1,23 @@
-import React, {
-  ChangeEvent,
-  FunctionComponent,
-  useMemo,
-  useState,
-} from "react";
-import { Happyemoji, Send2, AttachCircle } from "iconsax-react";
-import { Button, Modal, Nav, Tab } from "react-bootstrap";
-import CDInput from "../CDInput/CDInput";
-import CDChatModal from "../CDChatModal/CDChatModal";
-import CDPreviewFile from "../CDPreviewFile/CDPreviewFile";
-import CDPreviewFileIcon from "../CDPreviewFileIcon/CDPreviewFileIcon";
-import { FileUpload } from "../../types";
-import footerStyle from "./footer.module.css";
+import React, { ChangeEvent, FunctionComponent, useMemo, useState } from 'react'
+import { Happyemoji, Send2, AttachCircle } from 'iconsax-react'
+import { Button, Modal, Nav, Tab } from 'react-bootstrap'
+import CDInput from '../CDInput/CDInput'
+import CDChatModal from '../CDChatModal/CDChatModal'
+import CDPreviewFile from '../CDPreviewFile/CDPreviewFile'
+import CDPreviewFileIcon from '../CDPreviewFileIcon/CDPreviewFileIcon'
+import { FileUpload } from '../../types'
+import footerStyle from './footer.module.css'
 
 interface IFooterProps {
-  handleInputSearch: (event: ChangeEvent<HTMLInputElement>) => void;
-  messageText: string;
-  sendMessage: () => void;
-  modalFileUploadShow: boolean;
-  handleShowFileUploadModal: () => void;
-  handleCloseFileUploadModal: () => void;
-  handleFileInput: (event: ChangeEvent<HTMLInputElement>) => void;
-  fileList: Array<FileUpload>;
-  sendDocument: () => void;
+  handleInputSearch: (event: ChangeEvent<HTMLInputElement>) => void
+  messageText: string
+  sendMessage: () => void
+  modalFileUploadShow: boolean
+  handleShowFileUploadModal: () => void
+  handleCloseFileUploadModal: () => void
+  handleFileInput: (event: ChangeEvent<HTMLInputElement>) => void
+  fileList: Array<FileUpload>
+  sendDocument: () => void
 }
 
 const CDFooter: FunctionComponent<IFooterProps> = (props) => {
@@ -36,8 +31,8 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
     handleFileInput,
     fileList,
     sendDocument,
-  } = props;
-  const [defaultActiveKey, setDefaultActiveKey] = useState<string>("0");
+  } = props
+  const [defaultActiveKey, setDefaultActiveKey] = useState<string>('0')
   const renderTabs = useMemo(() => {
     return fileList?.map((filteItem: FileUpload, fileIndex: number) => {
       return (
@@ -56,9 +51,9 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
             <span>{filteItem?.originalName}</span>
           </div>
         </Tab.Pane>
-      );
-    });
-  }, [fileList]);
+      )
+    })
+  }, [fileList])
 
   const renderNavigateLinks = useMemo(() => {
     return fileList?.map((filteItem: FileUpload, fileIndex: number) => {
@@ -74,9 +69,9 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
             />
           </Nav.Link>
         </Nav.Item>
-      );
-    });
-  }, [fileList]);
+      )
+    })
+  }, [fileList])
 
   return (
     <>
@@ -93,12 +88,13 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
               isIcon: true,
               jsxIcon: <Happyemoji size="18" color="#ffffff" />,
             }}
-            type={"text"}
-            name={"searchBar"}
-            id={"search-bar"}
-            placeholder={"Search chat here...."}
+            type={'text'}
+            name={'searchBar'}
+            id={'search-bar'}
+            placeholder={'Search chat here....'}
             handleChange={handleInputSearch}
             value={messageText}
+            inputCustomClass={'py-4'}
           />
           <button
             className={`${footerStyle.sendMessage} d-flex align-items-center p-2 ms-2`}
@@ -112,7 +108,7 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
         show={modalFileUploadShow}
         centered={true}
         onHide={handleCloseFileUploadModal}
-        id={"contained-modal-title-vcenter"}
+        id={'contained-modal-title-vcenter'}
         size="md"
       >
         <Modal.Header closeButton></Modal.Header>
@@ -139,10 +135,10 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
             ) : (
               <>
                 <CDInput
-                  type={"file"}
-                  name={"fileUpload"}
-                  id={"file-upload"}
-                  placeholder={"attached image here...."}
+                  type={'file'}
+                  name={'fileUpload'}
+                  id={'file-upload'}
+                  placeholder={'attached image here....'}
                   handleChange={handleFileInput}
                   inputCustomClass={`${footerStyle.fileUploadInput} px-4`}
                   inputParentClass={`${footerStyle.fileUploadInputWrapper}`}
@@ -160,7 +156,7 @@ const CDFooter: FunctionComponent<IFooterProps> = (props) => {
         </Modal.Body>
       </CDChatModal>
     </>
-  );
-};
+  )
+}
 
-export default CDFooter;
+export default CDFooter

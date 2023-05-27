@@ -1,0 +1,26 @@
+.authLeft {
+  max-width: calc(100vw / 2);
+}
+.authImage {
+  max-width: inherit;
+  object-fit: cover;
+}
+.authRight {
+  background-color: var(--white-color);
+}
+.socialLogin {
+  gap: 20px;
+  margin-top: 50px;
+}
+.facebookBtn {
+  background-color: #5890ff;
+  color: var(--white-color);
+}
+.googleBtn {
+  background-color: #d34836;
+  color: var(--white-color);
+}
+.twitterBtn {
+  background-color: #657786;
+  color: var(--white-color);
+}

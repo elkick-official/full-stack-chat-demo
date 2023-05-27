@@ -1,11 +1,11 @@
-import React, { ChangeEvent, FunctionComponent, useState } from "react";
-import { SearchNormal1 } from "iconsax-react";
-import CDInput from "../CDInput/CDInput";
-import { ParticipantType, RoomType } from "../../types";
-import { useSideBarHook } from "../../hooks";
-import { config } from "../../config";
-import sidebarStyle from "./sidebar.module.css";
-import CDConversation from "../CDConversation/CDConversation";
+import React, { ChangeEvent, FunctionComponent, useState } from 'react'
+import { SearchNormal1 } from 'iconsax-react'
+import CDInput from '../CDInput/CDInput'
+import { ParticipantType, RoomType } from '../../types'
+import { useSideBarHook } from '../../hooks'
+import { config } from '../../config'
+import sidebarStyle from './sidebar.module.css'
+import CDConversation from '../CDConversation/CDConversation'
 
 const CDSideBar: FunctionComponent = () => {
   const {
@@ -14,17 +14,17 @@ const CDSideBar: FunctionComponent = () => {
     handleActiveRoom,
     typingText,
     activeRoomDetails,
-  } = useSideBarHook();
-  const [searchText, setSearchText] = useState<string>("");
-  const [activeTab, setActiveTab] = useState<string>("all");
+  } = useSideBarHook()
+  const [searchText, setSearchText] = useState<string>('')
+  const [activeTab, setActiveTab] = useState<string>('all')
 
   const handleInputSearch = (event: ChangeEvent<HTMLInputElement>) => {
-    const { value } = event.target;
-    setSearchText(value);
-  };
+    const { value } = event.target
+    setSearchText(value)
+  }
   const handleActiveTab = (tabValue: string) => {
-    setActiveTab(tabValue);
-  };
+    setActiveTab(tabValue)
+  }
 
   return (
     <div
@@ -38,12 +38,13 @@ const CDSideBar: FunctionComponent = () => {
             isIcon: true,
             jsxIcon: <SearchNormal1 size="18" color="#ffffff" />,
           }}
-          type={"text"}
-          name={"searchBar"}
-          id={"search-bar"}
-          placeholder={"Search chat here...."}
+          type={'text'}
+          name={'searchBar'}
+          id={'search-bar'}
+          placeholder={'Search chat here....'}
           handleChange={handleInputSearch}
           value={searchText}
+          inputCustomClass={'py-4'}
         />
       </div>
       <div className={`${sidebarStyle.messageCategoryWrapper} mb-3`}>
@@ -53,25 +54,25 @@ const CDSideBar: FunctionComponent = () => {
         >
           <span
             className={`${sidebarStyle.categoryItem} ${
-              activeTab === "all" && sidebarStyle.categoryItemActive
+              activeTab === 'all' && sidebarStyle.categoryItemActive
             } d-flex align-items-center justify-content-center w-100`}
-            onClick={() => handleActiveTab("all")}
+            onClick={() => handleActiveTab('all')}
           >
             All Chats
           </span>
           <span
             className={`${sidebarStyle.categoryItem} ${
-              activeTab === "groups" && sidebarStyle.categoryItemActive
+              activeTab === 'groups' && sidebarStyle.categoryItemActive
             } d-flex align-items-center justify-content-center w-100`}
-            onClick={() => handleActiveTab("groups")}
+            onClick={() => handleActiveTab('groups')}
           >
             Status
           </span>
           <span
             className={`${sidebarStyle.categoryItem} ${
-              activeTab === "calls" && sidebarStyle.categoryItemActive
+              activeTab === 'calls' && sidebarStyle.categoryItemActive
             } d-flex align-items-center justify-content-center w-100`}
-            onClick={() => handleActiveTab("calls")}
+            onClick={() => handleActiveTab('calls')}
           >
             Calls
           </span>
@@ -89,7 +90,7 @@ const CDSideBar: FunctionComponent = () => {
                   typingText={typingText}
                   key={roomIndex}
                 />
-              );
+              )
             })}
           </>
         ) : (
@@ -99,7 +100,7 @@ const CDSideBar: FunctionComponent = () => {
         )}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CDSideBar;
+export default CDSideBar
